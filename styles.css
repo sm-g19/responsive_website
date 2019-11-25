@@ -1,7 +1,19 @@
 body {
     background-color: aquamarine;
 }
+/* this is designing for mobile first */
+p {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+/* this is for desktop */
+@media only screen and (min-width: 600px) {
+    p {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
 
+}
 @media only screen and (max-width: 800px) {
     body {
         background-color: cornflowerblue;
@@ -19,3 +31,4 @@ body {
         background-color: pink;
     }
 }
+
