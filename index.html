@@ -1,14 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+
 </head>
+
 <body>
     <h1>My Responsive design</h1>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis similique corrupti, ipsam vero inventore rerum non odit cum nihil molestias autem! Omnis inventore quos tempora velit ea possimus delectus voluptatum.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis similique corrupti, ipsam vero inventore
+        rerum non odit cum nihil molestias autem! Omnis inventore quos tempora velit ea possimus delectus voluptatum.
+    </p>
+    <div>
+        <button type="button" class="btn btn-outline-success">Success</button>
+    </div>
+    <br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <p>This is the first column</p>
+            </div>
+            <div class="col-3">
+                <p>This is the second column</p>
+            </div>
+            <div class="col-3">
+                <p>This is the third column</p>
+            </div>
+            <div class="col-3">
+                <p>This is the fourth column</p>
+            </div>
+        </div>
+        <!-- now we are taking mobile as standard and adding changes for size of screen -->
+        <div class="container">
+            <div class="row">
+                <div class="col-12  col-sm-3">
+                    <p>This is the first column</p>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <p>This is the second column</p>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <p>This is the third column</p>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <p>This is the the last column</p>
+                </div>
+            </div>
+            <!-- so now I'm doing a 2 column with 2 at 12 and 2 at 6
+ -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 purple-box">
+                        <p>Column 1</p>
+                        <!-- you could leave out the p tag  -->
+                    </div>
+                    <div class="col-12 col-sm-6 purple-box">
+                        <p>Column 2</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6 blue-box">
+                        <p>Column 3a</p>
+                    </div>
+                    <div class="col-6 blue-box">
+                        <p>Column 3b</p>
+                    </div>
+                </div>
+            </div>
 </body>
+
 </html>

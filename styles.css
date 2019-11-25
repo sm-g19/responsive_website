@@ -1,11 +1,22 @@
 body {
     background-color: aquamarine;
 }
+
+.purple-box {
+    background-color: rebeccapurple;
+}
+
+.blue-box {
+    background-color: royalblue;
+}
+
 /* this is designing for mobile first */
 p {
     margin-left: 5%;
     margin-right: 5%;
 }
+
+
 /* this is for desktop */
 @media only screen and (min-width: 600px) {
     p {
